@@ -1,0 +1,98 @@
+/* General styling for the stint data container */
+.stint-data-container {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  background: linear-gradient(to right, #3498db, #9b59b6); /* Gradient background */
+  color: #fff; /* White text color */
+  min-height: 100vh;
+  margin-left: 250px; /* Adjust based on sidebar width */
+}
+
+/* Styling for the heading */
+.stint-data-container h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #fff; /* White heading color */
+  border-bottom: 3px solid #fff; /* White border under heading */
+  padding-bottom: 10px;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Styling for the dropdown container */
+.dropdown-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dropdown-container label {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #fff; /* White text color */
+}
+
+#driver-select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff; /* White background for dropdown */
+  color: #333; /* Dark text color for readability */
+}
+
+/* Styling for the stint table container */
+.stint-table-container {
+  margin-top: 20px;
+}
+
+/* Styling for the stint table */
+.stint-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff; /* White background for table */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.stint-table th, .stint-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+  color: #333; /* Black text color for table contents */
+}
+
+.stint-table thead {
+  background-color: #007bff; /* Blue header background */
+  color: #fff; /* White text color for headers */
+}
+
+.stint-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.stint-table tr:hover {
+  background-color: #ddd;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .stint-data-container h1 {
+      font-size: 2em;
+  }
+
+  #driver-select {
+      width: 100%;
+      font-size: 14px;
+  }
+
+  .stint-table th, .stint-table td {
+      font-size: 14px;
+  }
+}

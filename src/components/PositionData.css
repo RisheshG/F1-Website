@@ -1,0 +1,65 @@
+.position-data {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background: linear-gradient(to right, #3498db, #9b59b6); /* Gradient background */
+    color: #fff; /* White text color */
+    min-height: 100vh;
+    margin-left: 250px; /* Adjust based on sidebar width */
+}
+
+.position-data h1 {
+    color: #fff; /* White heading color */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    border-bottom: 3px solid #fff; /* White border under heading */
+    padding-bottom: 10px;
+}
+
+.position-data table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff; /* White background for the table */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Matching shadow */
+}
+
+.position-data th, 
+.position-data td {
+    padding: 12px 15px;
+    text-align: left;
+    color: #000; /* Black font color for table contents */
+    font-size: 1rem;
+}
+
+.position-data thead {
+    background-color: #3498db; /* Matching header background color */
+    color: white;
+    font-weight: bold;
+}
+
+.position-data tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.position-data tr:hover {
+    background-color: #e1e1e1;
+    transform: translateY(-3px);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .position-data {
+        margin-left: 0; /* Remove margin for small screens */
+        padding: 20px 10px;
+    }
+
+    .position-data th,
+    .position-data td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

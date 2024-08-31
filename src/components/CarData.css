@@ -1,0 +1,128 @@
+/* Apply the same font and general layout */
+.car-data-container {
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    margin-left: 250px; /* Adjust based on your sidebar width */
+    background: linear-gradient(to bottom right, #3498db, #9b59b6); /* Matching gradient background */
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    min-height: 100vh;
+}
+
+/* Heading for the section */
+.car-data-container h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fff; /* Consistent border color with HomePage */
+    padding-bottom: 10px;
+    background: -webkit-linear-gradient(left, #fff, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Error message styling */
+.error-message {
+    color: #e74c3c;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Loading message styling */
+p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Container for the driver selection dropdown */
+.driver-select-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for better visibility */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    backdrop-filter: blur(8px); /* Adding a blur effect for modern UI */
+}
+
+.driver-select-container label {
+    font-size: 1.2rem;
+    margin-right: 15px;
+    color: #3498db; /* Consistent color with HomePage */
+}
+
+.driver-select-container select {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: #3498db;
+    transition: all 0.3s ease;
+}
+
+.driver-select-container select:hover {
+    border-color: #2980b9;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* Container for the car data cards */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Styling for each car data card */
+.car-card {
+    background: linear-gradient(145deg, #ffffff, #f1f1f1);
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.car-card h3 {
+    font-size: 1.6rem;
+    color: #3498db; /* Consistent color with HomePage */
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.car-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.car-card strong {
+    color: #2c3e50;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .car-card {
+        width: 100%;
+    }
+
+    .car-data-container {
+        margin-left: 0; /* Remove margin for small screens */
+    }
+}

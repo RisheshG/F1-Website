@@ -1,0 +1,128 @@
+.home-page {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 250px; /* Adjust if necessary based on sidebar width */
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #3498db, #9b59b6);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  border-bottom: 5px solid #fff;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.cta-button {
+  background: #fff;
+  color: #3498db;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+/* About Section */
+.about-section {
+  padding: 60px 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Features Section */
+.features-section {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-content p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footer-content a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+  color: #ccc;
+}

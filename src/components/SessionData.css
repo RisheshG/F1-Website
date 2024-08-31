@@ -1,0 +1,71 @@
+/* General styling for the session container */
+.session-container {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  background: linear-gradient(to right, #3498db, #9b59b6); /* Gradient background */
+  color: #fff; /* White text color */
+  min-height: 100vh;
+  margin-left: 250px; /* Adjust based on sidebar width */
+  }
+  
+  .session-heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling for the session cards */
+  .sessions-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .session-card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .session-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for session name */
+  .session-name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  /* Styling for session type */
+  .session-type {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #28a745;
+  }
+  
+  /* Styling for session location */
+  .session-location {
+    font-size: 1em;
+    color: #6c757d;
+  }
+  
+  /* Styling for session date */
+  .session-date {
+    font-size: 0.9em;
+    color: #495057;
+  }
+  
+  /* Loading and no-data messages */
+  .loading, .no-data {
+    text-align: center;
+    font-size: 1.5em;
+    color: #343a40;
+    margin-top: 50px;
+  }
+  

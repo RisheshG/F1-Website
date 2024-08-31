@@ -1,0 +1,93 @@
+.race-control-data {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  background: linear-gradient(to right, #3498db, #9b59b6); /* Gradient background */
+  color: #fff; /* White text color */
+  min-height: 100vh;
+  margin-left: 250px; /* Adjust based on sidebar width */
+}
+
+.race-control-data h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff; /* White heading color */
+  font-size: 2rem;
+  border-bottom: 3px solid #fff; /* White border under heading */
+  padding-bottom: 10px;
+}
+
+.race-control-data .error {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.race-control-data .dropdown-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.race-control-data .dropdown-container label {
+  margin-right: 10px;
+  color: #fff; /* White label color */
+  font-weight: bold;
+}
+
+.race-control-data #driver-select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; /* White background for the dropdown */
+  color: #333; /* Dark text color */
+}
+
+.race-control-data table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff; /* White table background */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Matching shadow */
+}
+
+.race-control-data th,
+.race-control-data td {
+  padding: 12px 15px;
+  text-align: left;
+  color: #000; /* Black font color for table contents */
+  font-size: 1rem;
+}
+
+.race-control-data thead {
+  background-color: #3498db; /* Matching header background color */
+  color: white;
+  font-weight: bold;
+}
+
+.race-control-data tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.race-control-data tr:hover {
+  background-color: #e1e1e1;
+  transform: translateY(-3px);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .race-control-data {
+      margin: 0; /* Remove margin for small screens */
+      padding: 15px;
+  }
+
+  .race-control-data th,
+  .race-control-data td {
+      padding: 10px;
+      font-size: 14px;
+  }
+}

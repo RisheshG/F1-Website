@@ -1,0 +1,97 @@
+.pit-data-container {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #3498db, #9b59b6); /* Matching gradient background */
+    color: #000000; /* Light text color for readability */
+    min-height: 100vh;
+    margin-left: 250px; /* Adjust based on sidebar width */
+}
+
+.pit-data-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Light text color matching the theme */
+    font-size: 2.5rem;
+    border-bottom: 3px solid #fff; /* White border under heading */
+    padding-bottom: 10px;
+}
+
+.pit-data-table {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Matching shadow */
+    padding: 20px;
+}
+
+.pit-data-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pit-data-table th,
+.pit-data-table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increased padding for better spacing */
+    text-align: center;
+    font-size: 1rem;
+}
+
+.pit-data-table th {
+    background-color: #3498db; /* Matching header background color */
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.pit-data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pit-data-table tr:hover {
+    background-color: #e1e1e1;
+    transform: translateY(-3px);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.error-message {
+    color: #e74c3c; /* Matching error color */
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-content a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .pit-data-container {
+        margin-left: 0; /* Remove margin for small screens */
+        padding: 20px 10px;
+    }
+
+    .pit-data-table th,
+    .pit-data-table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

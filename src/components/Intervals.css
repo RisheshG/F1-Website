@@ -1,0 +1,122 @@
+/* Container for the entire intervals component */
+.intervals-container {
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    margin-left: 250px;
+    background: linear-gradient(to bottom right, #3498db, #9b59b6);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* Heading for the intervals section */
+.intervals-container h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+    background: -webkit-linear-gradient(left, #fff, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Container for the driver selection dropdown */
+.driver-select-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Label styling for the dropdown */
+.driver-select-container label {
+  margin-right: 15px;
+  font-size: 1.2rem;
+  color: #fff; /* Consistent text color */
+}
+
+/* Dropdown styling */
+.driver-select-container select {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #3498db; /* Consistent border color */
+  background-color: #fff;
+  color: #3498db; /* Matching text color */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.driver-select-container select:hover {
+  border-color: #2980b9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Container for the interval cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Styling for each interval card */
+.interval-card {
+  background: linear-gradient(145deg, #ffffff, #f1f1f1);
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interval-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading inside interval card */
+.interval-card h3 {
+  color: #3498db; /* Consistent color */
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* Paragraphs inside interval card */
+.interval-card p {
+  margin: 5px 0;
+  color: #555; /* Darker text for readability */
+}
+
+/* Error message styling */
+.error-message {
+  color: #e74c3c; /* Consistent error color */
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .intervals-container {
+    margin-left: 0; /* Remove margin for small screens */
+    max-width: 100%; /* Ensure container takes full width on small screens */
+  }
+
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .interval-card {
+    width: 90%;
+  }
+}

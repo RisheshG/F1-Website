@@ -1,0 +1,80 @@
+/* General styling for the team radio container */
+.team-radio-container {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  background: linear-gradient(to right, #3498db, #9b59b6); /* Gradient background */
+  color: #fff; /* White text color */
+  min-height: 100vh;
+  margin-left: 250px; /* Adjust based on sidebar width */
+}
+
+/* Styling for the main heading */
+h1 {
+  text-align: center;
+  color: #fff; /* White heading color */
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #fff; /* White border under heading */
+  padding-bottom: 10px;
+}
+
+/* Styling for the filter container */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for labels */
+label {
+  margin-right: 10px;
+  font-size: 1.1em;
+  color: #fff; /* White text color */
+}
+
+/* Styling for select elements */
+select {
+  padding: 8px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff; /* White background for dropdown */
+  color: #333; /* Dark text color for readability */
+}
+
+/* Styling for the radio data container */
+.radio-data-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Styling for each radio data item */
+.radio-data-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for items */
+  color: #333; /* Dark text color */
+}
+
+/* Styling for paragraphs inside radio data items */
+.radio-data-item p {
+  margin: 5px 0;
+  color: #555; /* Slightly lighter text color for better readability */
+}
+
+/* Styling for audio elements */
+audio {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .radio-data-container {
+      grid-template-columns: 1fr;
+  }
+}

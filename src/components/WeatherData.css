@@ -1,0 +1,48 @@
+/* General styling for the weather container */
+.weather-container {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background: linear-gradient(to right, #3498db, #9b59b6); /* Gradient background */
+    color: #fff; /* White text color */
+    min-height: 100vh;
+    margin-left: 250px; /* Adjust based on sidebar width */  
+}
+
+/* Styling for weather details box */
+.weather-details {
+    background-color: #444; /* Slightly lighter background for better readability */
+    padding: 20px;
+    border-radius: 12px; /* Slightly larger border radius */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow for a modern look */
+    text-align: center;
+    max-width: 500px; /* Maximum width for better layout control */
+    margin: 0 auto; /* Centering the box horizontally */
+}
+
+/* Styling for the weather heading */
+.weather-details h1 {
+    margin-bottom: 20px;
+    font-size: 28px; /* Larger font size for emphasis */
+    color: #00bfff; /* Bright color for heading to stand out */
+}
+
+/* Styling for weather information paragraphs */
+.weather-info p {
+    margin: 10px 0;
+    font-size: 20px; /* Larger font size for readability */
+    color: #f1f1f1; /* Slightly lighter text color for better contrast */
+}
+
+/* Styling for strong elements within weather info */
+.weather-info strong {
+    color: #00bfff; /* Bright color for strong text */
+}
+
+/* Styling for loading and error messages */
+.weather-container .loading,
+.weather-container .error {
+    font-size: 24px;
+    color: #fff; /* White color for consistency */
+    text-align: center;
+    margin-top: 50px;
+}
