@@ -6,7 +6,7 @@ const footerData = {
   companyName: 'Rishesh Gangwar',
   socialLinks: [
     { name: 'GitHub', url: 'https://github.com/RisheshG' },
-    { name: 'Resume', url: 'https://drive.google.com/file/d/1TmtTDJrV8tvteewZdim4w35_0rd_jGwH/view?usp=drivesdk' },
+    { name: 'Resume', url: 'https://drive.google.com/file/d/12xavAWqXDH3oeoPqZ-iYifSlZStu-dvZ/view?usp=drivesdk' },
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/rishesh-gangwar-bb7026241/' },
   ]
 };
