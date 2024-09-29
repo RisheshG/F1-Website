@@ -4,8 +4,6 @@ import './Location.css'; // Ensure you have CSS for styling
 
 const drivers = [
     { number: 1, name: 'Netherlands Max Verstappen' },
-    { number: 2, name: 'United States Logan Sargeant' },
-    { number: 3, name: 'Australia Daniel Ricciardo' },
     { number: 4, name: 'United Kingdom Lando Norris' },
     { number: 10, name: 'France Pierre Gasly' },
     { number: 11, name: 'Mexico Sergio Perez' },
@@ -18,6 +16,8 @@ const drivers = [
     { number: 24, name: 'China Guanyu Zhou' },
     { number: 27, name: 'Germany Nico Hulkenberg' },
     { number: 31, name: 'France Esteban Ocon' },
+    { number: 40, name: 'New Zealand Liam Lawson' },
+    { number: 43, name: 'Argentina 	Franco Colapinto' },
     { number: 44, name: 'United Kingdom Lewis Hamilton' },
     { number: 55, name: 'Spain Carlos Sainz' },
     { number: 63, name: 'United Kingdom George Russell' },

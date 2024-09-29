@@ -3,6 +3,12 @@
   margin-left: 250px; /* Adjust if necessary based on sidebar width */
 }
 
+@media (max-width: 1200px) {
+  .home-page {
+    margin-left: 0; /* Remove the margin for smaller screens */
+  }
+}
+
 /* Hero Section */
 .hero-section {
   background: linear-gradient(to right, #3498db, #9b59b6);
@@ -125,4 +131,102 @@
 .footer-content a:hover {
   text-decoration: underline;
   color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Adjust hero section for mobile */
+  .hero-section {
+    padding: 40px 15px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  /* Adjust about section for mobile */
+  .about-section {
+    padding: 40px 15px;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  /* Adjust features section for mobile */
+  .features-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .feature-item {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .feature-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .feature-item p {
+    font-size: 0.9rem;
+  }
+
+  /* Footer adjustments for mobile */
+  .footer {
+    padding: 20px 15px;
+  }
+
+  .footer-content p {
+    font-size: 0.9rem;
+  }
+
+  .footer-content a {
+    font-size: 0.9rem;
+  }
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+  }
+
+  .features-section h2 {
+    font-size: 2rem;
+  }
+
+  .feature-item h3 {
+    font-size: 1.3rem;
+  }
 }
